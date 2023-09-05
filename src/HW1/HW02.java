@@ -1,3 +1,4 @@
+//請設計一隻Java程式，計算200顆蛋共是幾打幾顆？ (一打為12顆)
 package HW1;
 
 public class HW02 {
