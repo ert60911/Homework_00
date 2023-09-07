@@ -5,13 +5,12 @@ package HW2;
 
 public class HW03 {
 public static void main(String[] args) {
-int i=1,total=0,sum=0;
+int i=1,total=0,sum=1;
 while(i<=10) {
-	sum=(int)Math.pow(i, 2);
-	total=total+sum;
+	sum=sum*i;
 	i++;
 }
-System.out.println(total);
+System.out.println(sum);
 
 }
 }
