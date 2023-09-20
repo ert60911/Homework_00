@@ -60,5 +60,11 @@ public class HW3challenge {
 	System.out.println("總共有"+ num +"個數字可以選擇");
 	}
 		
+	
+	public static int[] getran() {
+		int[] ran = new int [6];
+		for()
+	}
 	}
 	
+
