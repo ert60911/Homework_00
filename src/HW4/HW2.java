@@ -6,14 +6,10 @@ package HW4;
 
 public class HW2 {
 	public static void main(String[] args) {
-		public String str; 
-		
+		String[] x = {"H","e","l","l","o"," ","w","o","r","l","d"};
+		for(int i=x.length-1 ; i>=0;i-- ) {
+			System.out.print(x[i]);
+		}
 	}
-		public int length(String str) {
-			this.str=str;
-		}
-		public char charat(int index) {
-			
-		}
 }
 	
