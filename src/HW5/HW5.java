@@ -5,5 +5,20 @@
 package HW5;
 
 public class HW5 {
+	public void genAuthCode() {
+		String[] x = {"1","2","3","4","5","6","7","8","9","0","a","b","c","d","e","f","g","h","i","j","k","l","m","n",
+				"o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","F","G","H",
+				"I","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+		for(int i=0;i<=7;i++) {
+			int y =(int)(Math.random()*61);
+			String z = x[y];
+			System.out.print(z);
+		}
+	}
 
+public static void main(String[] args) {
+	System.out.print("本次隨機產生驗證碼為:"+"\n");
+	HW5 ran = new HW5();
+	ran.genAuthCode();
+	}
 }
